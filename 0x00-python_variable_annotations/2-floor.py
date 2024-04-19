@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-import math
 """function type annotation"""
+
+
+import math
 
 
 def floor(n: float) -> float:
