@@ -2,7 +2,6 @@
 """function type annotation"""
 
 
-
-def floor(n: float) -> float:
-    """funtion to return floor"""
-    return floor(n)
+def floor(n: float) -> int:
+    """floor funtion"""
+    return int(n // 1)
