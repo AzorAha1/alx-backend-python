@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""sumary_line
-
-Keyword arguments:
-argument -- description
-Return: return_description
-"""
+"""this is an async function"""
 import asyncio
 wait_random = __import__('0-basic_async_syntax').wait_random
 
