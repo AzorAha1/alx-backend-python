@@ -12,7 +12,7 @@ async def async_generator():
     argument -- description
     Return: return_description
     """
-    for _ in range(10):
+    for _ in range(0, 10):
         await asyncio.sleep(1)
         therandom = random.uniform(0, 10)
         yield therandom
