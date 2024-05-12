@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """unittest
-
 Keyword arguments:
 argument -- description
 Return: return_description
@@ -17,7 +16,6 @@ class TestAccessNestedMap(unittest.TestCase):
     Args:
         unittest (_type_): _description_
     """
-
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2})
