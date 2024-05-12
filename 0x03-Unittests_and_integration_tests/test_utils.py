@@ -8,7 +8,7 @@ Return: return_description
 
 
 import unittest
-from parameterized import parameterized
+import parameterized
 from utils import access_nested_map
 from typing import Any, Mapping, Sequence
 
@@ -19,7 +19,7 @@ class TestAccessNestedMap(unittest.TestCase):
         unittest (_type_): _description_
     """
 
-    @parameterized.expand([
+    @parameterized.parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2})
         ({"a": {"b": 2}}, ["a", "b"], 2),
