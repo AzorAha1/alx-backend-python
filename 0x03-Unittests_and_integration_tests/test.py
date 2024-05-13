@@ -21,7 +21,8 @@ def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
         nested_map = nested_map[key]
 
     return nested_map
-nested_map={"a": {"b": 2}}
-path=("a",)
+
+nested_map={"a": 1}
+path=("a", "b")
 print(access_nested_map(nested_map, path))
 
